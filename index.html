@@ -1,73 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <h1>FE Kuliner</h1>
     <section>
-      <h3>5 Kuliner terpopuler</h3>
-      <p>Berikut adalah daftar 5 kuliner terpopuler dari seluruh dunia</p>
-      <img src="./assets/images/1.jpg" alt="Massaman Curry" />
-      <img src="./assets/images/2.jpg" alt="Pizza" />
-      <img src="./assets/images/3.jpg" alt="Sushi" />
-      <img src="./assets/images/4.jpg" alt="Bebek Peking" />
-      <img src="./assets/images/5.jpg" alt="Hamburger" />
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#terpopuler">Kuliner terpopuler</a></li>
+            <li><a href="#kontak-kami">Kontak kami</a></li>
+            <li><a href="#daftar-kuliner">Daftar kuliner</a></li>
+        </ul>
     </section>
-    <section>
-      <h3>Daftar kuliner</h3>
-      <ol>
-        <li>
-          Indonesia
-          <ul>
-            <li>Rendang</li>
-            <li>Pempek</li>
-            <li>Soto</li>
-            <li>Opor</li>
-          </ul>
-        </li>
-        <li>
-          Malaysia
-          <ul>
-            <li>Lemang</li>
-            <li>Nasi Lemak</li>
-          </ul>
-        </li>
-        <li>
-          Singapura
-          <ul>
-            <li>Bakwan</li>
-            <li>Nasi Goreng</li>
-            <li>Hokkien Prawn Mee</li>
-          </ul>
-        </li>
-        <li>
-          India
-          <ul>
-            <li>Laksa</li>
-            <li>Kari</li>
-          </ul>
-        </li>
-      </ol>
+    <section id="terpopuler">
+        <h3>5 Kuliner terpopuler</h3>
+        <p>Berikut adalah daftar 5 kuliner terpopuler dari seluruh dunia</p>
+        <img src="./assets/images/1.jpg" alt="Massaman Curry" />
+        <img src="./assets/images/2.jpg" alt="Pizza" />
+        <img src="./assets/images/3.jpg" alt="Sushi" />
+        <img src="./assets/images/4.jpg" alt="Bebek Peking" />
+        <img src="./assets/images/5.jpg" alt="Hamburger" />
     </section>
-    <section>
-      <h3>Kontak kami</h3>
-      <p>
-        Untuk melakukan pemesanan atas makanan-makanan yang telah kami daftarkan
-      </p>
-      <form>
-        <label for="nama">Nama</label>
-        <input type="text" id="nama" />
-        <label for="email">Email</label>
-        <input type="email" />
-        <label for="alamat">Alamat</label>
-        <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
-        <button type="submit">Pesan</button>
-        <button type="reset">Reset</button>
-      </form>
+    <section id="daftar-kuliner">
+        <h3>Daftar kuliner</h3>
+        <ol>
+            <li>
+                Indonesia
+                <ul>
+                    <li>Rendang</li>
+                    <li>Pempek</li>
+                    <li>Soto</li>
+                    <li>Opor</li>
+                </ul>
+            </li>
+            <li>
+                Malaysia
+                <ul>
+                    <li>Lemang</li>
+                    <li>Nasi Lemak</li>
+                </ul>
+            </li>
+            <li>
+                Singapura
+                <ul>
+                    <li>Bakwan</li>
+                    <li>Nasi Goreng</li>
+                    <li>Hokkien Prawn Mee</li>
+                </ul>
+            </li>
+            <li>
+                India
+                <ul>
+                    <li>Laksa</li>
+                    <li>Kari</li>
+                </ul>
+            </li>
+        </ol>
     </section>
-  </body>
+    <section id="kontak-kami">
+        <h3>Kontak kami</h3>
+        <p>
+            Untuk melakukan pemesanan atas makanan-makanan yang telah kami daftarkan
+        </p>
+        <form>
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" />
+            <label for="email">Email</label>
+            <input type="email" />
+            <label for="alamat">Alamat</label>
+            <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
+            <button type="submit">Pesan</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+</body>
+
 </html>
