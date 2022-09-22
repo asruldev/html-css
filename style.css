@@ -1,0 +1,49 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    text-align: justify;
+    font-size: 24px;
+}
+
+.menu {
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.menu ul {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li {
+    margin: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+a:hover {
+    color: brown;
+}
+
+.img-populer {
+    width: 250px;
+    height: 250px;
+}
+
+h3 {
+    text-align: center;
+}
