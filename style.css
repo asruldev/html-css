@@ -1,0 +1,48 @@
+body {
+    background-color: azure;    
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.img-culiner {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#main {
+    border: 1px red solid;
+}
+
+.container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "navigasi content content"
+        "navigasi content content"
+        "navigasi footer footer"
+    ;
+}
+
+.navigasi {
+    background-color: pink;
+    grid-area: navigasi;
+}
+
+.content {
+    background-color: yellow;
+    grid-area: content;
+}
+
+.footer {
+    background-color: aqua;
+    grid-area: footer;
+}
